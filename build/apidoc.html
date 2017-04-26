@@ -70,25 +70,6 @@
 
         </li>
 
-        <li>
-
-            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">heapdump.</span>main</span>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.heapdump.main">module heapdump.main</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.heapdump.main.writeSnapshot">
-            function <span class="apidocSignatureSpan">heapdump.main.</span>writeSnapshot
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -100,45 +81,6 @@
     <h2>
         <a href="#apidoc.element.heapdump.writeSnapshot" id="apidoc.element.heapdump.writeSnapshot">
         function <span class="apidocSignatureSpan">heapdump.</span>writeSnapshot
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">writeSnapshot = function () {
-  return addon.writeSnapshot.apply(null, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-var heapdump = require(&#x27;heapdump&#x27;);
-
-The module exports a single `writeSnapshot([filename], [callback])` function
-that writes out a snapshot.  `filename` defaults to
-`heapdump-&#x3c;sec&#x3e;.&#x3c;usec&#x3e;.heapsnapshot` when omitted.
-
-heapdump.<span class="apidocCodeKeywordSpan">writeSnapshot</span>(&#x27;/var/local/&#x27; + Date.now() + &#x27;.heapsnapshot&#x27
-;);
-
-The function also takes an optional callback function which is called upon
-completion of the heap dump.
-
-heapdump.writeSnapshot(function(err, filename) {
-  console.log(&#x27;dump written to&#x27;, filename);
-});
-...</pre></li>
-    </ul>
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.heapdump.main" id="apidoc.module.heapdump.main">module heapdump.main</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.heapdump.main.writeSnapshot" id="apidoc.element.heapdump.main.writeSnapshot">
-        function <span class="apidocSignatureSpan">heapdump.main.</span>writeSnapshot
         <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
