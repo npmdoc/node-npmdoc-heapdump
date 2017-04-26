@@ -1,6 +1,6 @@
 # npmdoc-heapdump
 
-#### api documentation for  [heapdump (v0.3.9)](https://github.com/bnoordhuis/node-heapdump)  [![npm package](https://img.shields.io/npm/v/npmdoc-heapdump.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-heapdump) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-heapdump.svg)](https://travis-ci.org/npmdoc/node-npmdoc-heapdump)
+#### basic api documentation for  [heapdump (v0.3.9)](https://github.com/bnoordhuis/node-heapdump)  [![npm package](https://img.shields.io/npm/v/npmdoc-heapdump.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-heapdump) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-heapdump.svg)](https://travis-ci.org/npmdoc/node-npmdoc-heapdump)
 
 #### Make a dump of the V8 heap for later inspection.
 
@@ -62,7 +62,8 @@
         "install": "node-gyp rebuild",
         "test": "tap test/test-*"
     },
-    "version": "0.3.9"
+    "version": "0.3.9",
+    "bin": {}
 }
 ```
 
